@@ -1,16 +1,11 @@
-var $ = require('jquery');
+// var $ = require('jquery');
 // var Person = require('./modules/Person');
-import Person from './modules/Person';
+import MobileMenu from './modules/MobileMenu';
 
-class Adult extends Person {
-  payTaxes(){
-    console.log(this.name +' Now Iam pay taxes !');
-  }
-}
 
-var jonh = new Person("Maria", "Red");
-jonh.greet();
+var mobileMenu = new MobileMenu();
 
-var jane = new Adult("jane", "Orange");
-jane.greet();
-jane.payTaxes();
+
+
+
+
